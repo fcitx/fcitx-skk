@@ -540,6 +540,14 @@ FcitxSkkDoInput(void *arg, FcitxKeySym sym, unsigned int state)
     return FcitxSkkDoInputReal(skk, sym, state);
 }
 
+// keys should always be reported as handled
+static const struct _keyval {
+    FcitxKeySym keyval;
+    FcitxKeyState modifiers;
+} IGNORE_KEYVALS[] = {
+    { FcitxKey_j, FcitxKeyState_Ctrl }
+};
+
 static INPUT_RETURN_VALUE
 FcitxSkkDoInputReal(void *arg, FcitxKeySym sym, unsigned int state)
 {
@@ -568,6 +576,15 @@ FcitxSkkDoInputReal(void *arg, FcitxKeySym sym, unsigned int state)
     }
 
     g_free(output);
+
+    int i;
+    for (i = 0; i < (sizeof(IGNORE_KEYVALS) / sizeof(struct _keyval)); i++) {
+        if (IGNORE_KEYVALS[i].keyval == sym &&
+            IGNORE_KEYVALS[i].modifiers == modifiers) {
+            retval = true;
+            break;
+        }
+    }
     return retval ? (skk->updatePreedit || skk->update_candidate ?  IRV_DISPLAY_CANDWORDS : IRV_DO_NOTHING) : IRV_TO_PROCESS;
 }
 
