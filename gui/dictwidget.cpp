@@ -36,6 +36,12 @@ SkkDictWidget::SkkDictWidget(QWidget* parent): FcitxQtConfigUIWidget(parent)
     m_ui->dictionaryView->setModel(m_dictModel);
     m_ui->ruleComboBox->setModel(m_ruleModel);
 
+    m_ui->addDictButton->setText(_("Add.."));
+    m_ui->removeDictButton->setText(_("Remove"));
+    m_ui->moveUpDictButton->setText(_("Up"));
+    m_ui->moveDownDictButton->setText(_("Down"));
+    m_ui->defaultDictButton->setText(_("Default"));
+
     connect(m_ui->addDictButton, SIGNAL(clicked(bool)), this, SLOT(addDictClicked()));
     connect(m_ui->defaultDictButton, SIGNAL(clicked(bool)), this,  SLOT(defaultDictClicked()));
     connect(m_ui->removeDictButton, SIGNAL(clicked(bool)), this, SLOT(removeDictClicked()));
