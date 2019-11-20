@@ -1,152 +1,38 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# scootergrisen, 2017
+# scootergrisen, 2017,2019
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-10 16:03-0800\n"
-"PO-Revision-Date: 2017-11-10 22:10+0000\n"
+"POT-Creation-Date: 2014-12-08 12:40+0900\n"
+"PO-Revision-Date: 2019-11-19 15:23+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: gui/adddictdialog.cpp:37
-msgid "&Host:"
-msgstr "&Vært:"
-
-#: gui/adddictdialog.cpp:36
-msgid "&Path:"
-msgstr "&Sti:"
-
-#: gui/adddictdialog.cpp:38
-msgid "&Port:"
-msgstr "&Port:"
-
-#: gui/dictwidget.cpp:34
-msgid "&Rule:"
-msgstr "&Regel:"
 
 #: gui/adddictdialog.cpp:35
 msgid "&Type:"
 msgstr "&Type:"
 
-#: src/fcitx-skk.desc:60
-msgid "ABC (a,b,c,...)"
-msgstr "ABC (a,b,c,...)"
+#: gui/adddictdialog.cpp:36
+msgid "&Path:"
+msgstr "&Sti:"
 
-#: src/fcitx-skk.desc:36
-msgid "Candidate List Layout"
-msgstr "Layout for kandidatliste"
+#: gui/adddictdialog.cpp:37
+msgid "&Host:"
+msgstr "&Vært:"
 
-#: gui/dictwidget.cpp:61
-msgid "Dictionary Manager"
-msgstr "Ordbogshåndtering"
-
-#: src/fcitx-skk.conf.in:9
-msgid "Dictionary and Rule"
-msgstr "Ordbog og regel"
-
-#: src/fcitx-skk.desc:59
-msgid "Digit (0,1,2,...)"
-msgstr "Tal (0,1,2,...)"
-
-#: src/fcitx-skk.desc:19
-msgid "Direct input"
-msgstr "Direkte input"
-
-#: src/fcitx-skk.desc:1 src/fcitx-skk.desc:11 src/fcitx-skk.desc:22
-#: src/fcitx-skk.desc:29 src/fcitx-skk.desc:34 src/fcitx-skk.desc:43
-#: src/fcitx-skk.desc:50 src/fcitx-skk.desc:55
-msgid "General"
-msgstr "Generelt"
-
-#: src/fcitx-skk.desc:38
-msgid "Global"
-msgstr "Global"
-
-#: src/skk.c:97 src/fcitx-skk.desc:18
-msgid "Half width Katakana"
-msgstr "Katakana med halv bredde"
-
-#: src/skk.c:95 src/fcitx-skk.desc:16
-msgid "Hiragana"
-msgstr "Hiragana"
-
-#: src/fcitx-skk.desc:40
-msgid "Horizontal"
-msgstr "Vandret"
-
-#: src/fcitx-skk.desc:13
-msgid "Initial Input Mode"
-msgstr "Indledende inputtilstand"
-
-#: src/skk.c:466
-msgid "Input Mode"
-msgstr "Inputtilstand"
-
-#: src/fcitx-skk.desc:6
-msgid "Japanese"
-msgstr "Japansk"
-
-#: src/skk.c:96 src/fcitx-skk.desc:17
-msgid "Katakana"
-msgstr "Katakana"
-
-#: src/fcitx-skk.desc:57
-msgid "Keys to Select from Candidate Window"
-msgstr "Taster til at vælge fra kandidatvindue"
-
-#: src/skk.c:98 src/fcitx-skk.desc:7
-msgid "Latin"
-msgstr "Latinsk"
-
-#: src/fcitx-skk.desc:45
-msgid "Number candidate of Triggers To Show Candidate Window"
-msgstr "Antal kandidater af udløsere før kandidatvindue vises"
-
-#: src/fcitx-skk.desc:24
-msgid "Page size"
-msgstr "Sidestørrelse"
-
-#: src/fcitx-skk.desc:3
-msgid "Punctuation Style"
-msgstr "Tegnsætningsstil"
-
-#: src/fcitx-skk.desc:61
-msgid "Qwerty Center Row (a,s,d,...)"
-msgstr "Qwerty-midterrække (a,s,d,...)"
-
-#: src/fcitx-skk.desc:31
-msgid "Return-key does not insert new line on commit"
-msgstr "Returtast indsætter ikke linjeskift ved udfør"
-
-#: gui/adddictdialog.cpp:101 gui/adddictdialog.cpp:113
-msgid "Select Dictionary File"
-msgstr "Vælg ordbogsfil"
-
-#: gui/adddictdialog.cpp:41
-msgid "Server"
-msgstr "Server"
-
-#: src/fcitx-skk.desc:52
-msgid "Show Annotation"
-msgstr "Vis annotering"
-
-#: src/skk.c:440 src/fcitx-skk.conf.in:3 src/skk.conf.in:3
-msgid "Skk"
-msgstr "Skk"
-
-#: src/fcitx-skk.conf.in:4
-msgid "Skk Input Method For Fcitx"
-msgstr "Skk-inputmetode til Fcitx"
+#: gui/adddictdialog.cpp:38
+msgid "&Port:"
+msgstr "&Port:"
 
 #: gui/adddictdialog.cpp:39
 msgid "System"
@@ -156,14 +42,128 @@ msgstr "System"
 msgid "User"
 msgstr "Bruger"
 
-#: src/fcitx-skk.desc:39
-msgid "Vertical"
-msgstr "Lodret"
+#: gui/adddictdialog.cpp:41
+msgid "Server"
+msgstr "Server"
+
+#: gui/adddictdialog.cpp:101 gui/adddictdialog.cpp:113
+msgid "Select Dictionary File"
+msgstr "Vælg ordbogsfil"
+
+#: gui/dictwidget.cpp:34
+msgid "&Rule:"
+msgstr "&Regel:"
+
+#: gui/dictwidget.cpp:61
+msgid "Dictionary Manager"
+msgstr "Ordbogshåndtering"
+
+#: src/skk.c:95 src/fcitx-skk.desc:16
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#: src/skk.c:96 src/fcitx-skk.desc:17
+msgid "Katakana"
+msgstr "Katakana"
+
+#: src/skk.c:97 src/fcitx-skk.desc:18
+msgid "Half width Katakana"
+msgstr "Katakana med halv bredde"
+
+#: src/skk.c:98 src/fcitx-skk.desc:7
+msgid "Latin"
+msgstr "Latinsk"
 
 #: src/skk.c:99 src/fcitx-skk.desc:8 src/fcitx-skk.desc:20
 msgid "Wide latin"
 msgstr "Bred latinsk"
 
+#: src/skk.c:440 src/fcitx-skk.conf.in:3 src/skk.conf.in:3
+msgid "Skk"
+msgstr "Skk"
+
+#: src/skk.c:466
+msgid "Input Mode"
+msgstr "Inputtilstand"
+
+#: src/fcitx-skk.conf.in:4
+msgid "Skk Input Method For Fcitx"
+msgstr "Skk-inputmetode til Fcitx"
+
+#: src/fcitx-skk.conf.in:9
+msgid "Dictionary and Rule"
+msgstr "Ordbog og regel"
+
+#: src/fcitx-skk.desc:1 src/fcitx-skk.desc:11 src/fcitx-skk.desc:22
+#: src/fcitx-skk.desc:29 src/fcitx-skk.desc:34 src/fcitx-skk.desc:43
+#: src/fcitx-skk.desc:50 src/fcitx-skk.desc:55
+msgid "General"
+msgstr "Generelt"
+
+#: src/fcitx-skk.desc:3
+msgid "Punctuation Style"
+msgstr "Tegnsætningsstil"
+
+#: src/fcitx-skk.desc:6
+msgid "Japanese"
+msgstr "Japansk"
+
 #: src/fcitx-skk.desc:9
 msgid "Wide latin Japanese"
 msgstr "Bred latinsk japansk"
+
+#: src/fcitx-skk.desc:13
+msgid "Initial Input Mode"
+msgstr "Indledende inputtilstand"
+
+#: src/fcitx-skk.desc:19
+msgid "Direct input"
+msgstr "Direkte input"
+
+#: src/fcitx-skk.desc:24
+msgid "Page size"
+msgstr "Sidestørrelse"
+
+#: src/fcitx-skk.desc:31
+msgid "Return-key does not insert new line on commit"
+msgstr "Returtast indsætter ikke linjeskift ved udfør"
+
+#: src/fcitx-skk.desc:36
+msgid "Candidate List Layout"
+msgstr "Layout for kandidatliste"
+
+#: src/fcitx-skk.desc:38
+msgid "Global"
+msgstr "Global"
+
+#: src/fcitx-skk.desc:39
+msgid "Vertical"
+msgstr "Lodret"
+
+#: src/fcitx-skk.desc:40
+msgid "Horizontal"
+msgstr "Vandret"
+
+#: src/fcitx-skk.desc:45
+msgid "Number candidate of Triggers To Show Candidate Window"
+msgstr "Antal kandidater af udløsere før kandidatvindue vises"
+
+#: src/fcitx-skk.desc:52
+msgid "Show Annotation"
+msgstr "Vis annotering"
+
+#: src/fcitx-skk.desc:57
+msgid "Keys to Select from Candidate Window"
+msgstr "Taster til at vælge fra kandidatvindue"
+
+#: src/fcitx-skk.desc:59
+msgid "Digit (0,1,2,...)"
+msgstr "Tal (0,1,2 ...)"
+
+#: src/fcitx-skk.desc:60
+msgid "ABC (a,b,c,...)"
+msgstr "ABC (a,b,c ...)"
+
+#: src/fcitx-skk.desc:61
+msgid "Qwerty Center Row (a,s,d,...)"
+msgstr "Qwerty-midterrække (a,s,d ...)"
