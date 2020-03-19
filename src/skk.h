@@ -35,11 +35,13 @@
 
 #define ABCD_STR_CHOOSE "abcdefghij"
 #define ASDF_STR_CHOOSE "asdfghjkl;"
+#define ASDFJ_STR_CHOOSE "asdfjkl;"
 
 typedef enum _FcitxSkkChooseKeyType {
     ChooseDigit,
     ChooseABCD,
-    ChooseASDF
+    ChooseASDF,
+    ChooseASDFJ
 } FcitxSkkChooseKeyType;
 
 typedef struct _FcitxSkkConfig {
