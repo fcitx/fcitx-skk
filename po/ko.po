@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-03-25 00:03-0700\n"
-"PO-Revision-Date: 2020-03-24 16:52+0000\n"
+"POT-Creation-Date: 2020-04-04 00:03-0700\n"
+"PO-Revision-Date: 2020-04-03 14:20+0000\n"
 "Last-Translator: MarongHappy <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
@@ -37,7 +37,7 @@ msgstr "규칙(&R)"
 
 #: gui/adddictdialog.cpp:35
 msgid "&Type:"
-msgstr "형식(&T):"
+msgstr "유형(&T):"
 
 #: src/fcitx-skk.desc:60
 msgid "ABC (a,b,c,...)"
@@ -111,7 +111,7 @@ msgstr "로마자"
 
 #: src/fcitx-skk.desc:45
 msgid "Number candidate of Triggers To Show Candidate Window"
-msgstr "후보 창을 표시할 트리거 후보 수"
+msgstr "후보 창을 표시할 트리거의 후보 번호"
 
 #: src/fcitx-skk.desc:24
 msgid "Page size"
