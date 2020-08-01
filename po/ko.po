@@ -4,14 +4,15 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# MarongHappy <daemul72@gmail.com>, 2020
+# JungHee Lee <daemul72@gmail.com>, 2020
+# JungHee Lee <daemul72@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-04-04 00:03-0700\n"
-"PO-Revision-Date: 2020-04-03 14:20+0000\n"
-"Last-Translator: MarongHappy <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2020-08-01 00:02-0700\n"
+"PO-Revision-Date: 2020-08-01 06:31+0000\n"
+"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +54,7 @@ msgstr "사전 관리자"
 
 #: src/fcitx-skk.conf.in:9
 msgid "Dictionary and Rule"
-msgstr "사전과 규칙"
+msgstr "사전 및 규칙"
 
 #: src/fcitx-skk.desc:59
 msgid "Digit (0,1,2,...)"
