@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-01 00:02-0700\n"
-"PO-Revision-Date: 2020-08-01 06:31+0000\n"
+"POT-Creation-Date: 2020-12-26 20:26+0000\n"
+"PO-Revision-Date: 2020-12-26 04:37+0000\n"
 "Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
@@ -112,7 +112,7 @@ msgstr "로마자"
 
 #: src/fcitx-skk.desc:45
 msgid "Number candidate of Triggers To Show Candidate Window"
-msgstr "후보 창을 표시할 트리거의 후보 번호"
+msgstr "후보 창을 표시할 전환 후보 수"
 
 #: src/fcitx-skk.desc:24
 msgid "Page size"
