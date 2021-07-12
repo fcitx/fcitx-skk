@@ -166,3 +166,8 @@ msgstr ""
 #: src/fcitx-skk.desc:61
 msgid "Qwerty Center Row (a,s,d,...)"
 msgstr ""
+
+#: src/fcitx-skk.desc:62 (patched)
+msgid "Qwerty Center Row2 (asdfjkl)"
+msgstr ""
+

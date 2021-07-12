@@ -126,6 +126,10 @@ msgstr "句読点スタイル"
 msgid "Qwerty Center Row (a,s,d,...)"
 msgstr "Qwertyキーボード中央行 (a,s,d,...)"
 
+#: src/fcitx-skk.desc:62 (patched)
+msgid "Qwerty Center Row2 (asdfjkl)"
+msgstr "Qwertyキーボード中央行2 (asdfjkl)"
+
 #: src/fcitx-skk.desc:31
 msgid "Return-key does not insert new line on commit"
 msgstr "確定時にリターンキーを押しても改行を挿入しない"
