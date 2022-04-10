@@ -4,15 +4,16 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# JungHee Lee <daemul72@gmail.com>, 2020
-# JungHee Lee <daemul72@gmail.com>, 2020
+# Junghee Lee <daemul72@gmail.com>, 2020
+# Junghee Lee <daemul72@gmail.com>, 2022
+# Junghee Lee <daemul72@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-12-26 20:26+0000\n"
-"PO-Revision-Date: 2020-12-26 04:37+0000\n"
-"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2022-04-10 20:28+0000\n"
+"PO-Revision-Date: 2013-03-25 22:20+0000\n"
+"Last-Translator: Junghee Lee <daemul72@gmail.com>, 2022\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +77,7 @@ msgstr "전역"
 
 #: src/skk.c:97 src/fcitx-skk.desc:18
 msgid "Half width Katakana"
-msgstr "반각 가타가나"
+msgstr "반각 가타카나"
 
 #: src/skk.c:95 src/fcitx-skk.desc:16
 msgid "Hiragana"
@@ -112,7 +113,7 @@ msgstr "로마자"
 
 #: src/fcitx-skk.desc:45
 msgid "Number candidate of Triggers To Show Candidate Window"
-msgstr "후보 창을 표시할 전환 후보 수"
+msgstr "후보 단어 창의 표시를 트리거한 키 입력 수"
 
 #: src/fcitx-skk.desc:24
 msgid "Page size"
@@ -148,7 +149,7 @@ msgstr "Skk"
 
 #: src/fcitx-skk.conf.in:4
 msgid "Skk Input Method For Fcitx"
-msgstr "Fcitx를 위한 Skk 입력기"
+msgstr "Fcitx용 Skk 입력기"
 
 #: gui/adddictdialog.cpp:39
 msgid "System"
