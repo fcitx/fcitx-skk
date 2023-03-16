@@ -263,34 +263,34 @@ boolean FcitxSkkLoadDictionary(FcitxSkk* skk)
                 if (path == NULL || mode == 0) {
                     break;
                 }
+                char* needfree = NULL;
+                char* realpath = NULL;
+                if (strncmp(path, "$FCITX_CONFIG_DIR/", strlen("$FCITX_CONFIG_DIR/")) == 0) {
+                    FcitxXDGGetFileUserWithPrefix("", path + strlen("$FCITX_CONFIG_DIR/"), NULL, &needfree);
+                    realpath = needfree;
+                } else {
+                    realpath = path;
+                }
                 if (mode == 1) {
-                    if(strlen(path) > 4 && !strcmp(path + strlen(path) - 4, ".cdb")) {
-                        SkkCdbDict* dict = skk_cdb_dict_new(path, encoding, NULL);
+                    if(strlen(realpath) > 4 && !strcmp(realpath + strlen(realpath) - 4, ".cdb")) {
+                        SkkCdbDict* dict = skk_cdb_dict_new(realpath, encoding, NULL);
                         if (dict) {
                             utarray_push_back(&dictionaries, &dict);
                         }
                     } else {
-                        SkkFileDict* dict = skk_file_dict_new(path, encoding, NULL);
+                        SkkFileDict* dict = skk_file_dict_new(realpath, encoding, NULL);
                         if (dict) {
                             utarray_push_back(&dictionaries, &dict);
                         }
                     }
                 } else {
-                    char* needfree = NULL;
-                    char* realpath = NULL;
-                    if (strncmp(path, "$FCITX_CONFIG_DIR/", strlen("$FCITX_CONFIG_DIR/")) == 0) {
-                        FcitxXDGGetFileUserWithPrefix("", path + strlen("$FCITX_CONFIG_DIR/"), NULL, &needfree);
-                        realpath = needfree;
-                    } else {
-                        realpath = path;
-                    }
                     SkkUserDict* userdict = skk_user_dict_new(realpath, encoding, NULL);
-                    if (needfree) {
-                        free(needfree);
-                    }
                     if (userdict) {
                         utarray_push_back(&dictionaries, &userdict);
                     }
+                }
+                if (needfree) {
+                    free(needfree);
                 }
             } else if (type == FSTD_Server) {
                 host = host ? host : "localhost";
